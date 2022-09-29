@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+.container{
+    font-size: 15px;
+    background-color: #f8f9fa;
+    margin-right: 16px;
+}
+.menulist{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    width: 13%;
+    float: left;
+    margin-top: 20px;
+}
+.logo{
+    width: 87%;
+}
+.subitem{
+    font-size: 12px;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: #0645ad;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul.stylenone{
+    list-style: none;
+    padding-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+li{
+    padding: 2px;
+    font-size: 14px;
+}
+h3{
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding-left: 25px;
+    border-bottom: 1px solid #a7d7f9;
+    border-left: 1px solid #a7d7f9;
+}
+.contripute-ul{
+    margin-top: 0;
+}
+.headermenu{
+    display: flex;
+    justify-content: end;
+    float: right;
+}
+.headernav{
+    padding: 5px;
+    text-decoration: none;
+}
+a:visited{
+    color: #0b0080;
+}
+input:focus{
+    outline: none;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 1px solid #a7d7f9;
+}
+.left-navigation{
+    display: flex;
+}
+.right-navigation{
+    background-image: linear-gradient(to bottom,rgba(167,215,249,0) 0,#a7d7f9 100%);
+    background-repeat: no-repeat;
+    background-size: 1px 100%;
+    display: flex;
+}
+p {
+    margin-top: 0;
+    font-size: 14px;
+}
+.navigationitems{
+    width: 40px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px solid #a7d7f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar{
+    position: relative;
+    margin-left: 5px;
+}
+input.search{
+    padding: 5px 41px 5px 5px;
+}
+ion-icon.iconsearch.md.hydrated {
+    position: absolute;
+    top: 5px;
+    right: 4px;
+}
+.pageheader{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 0;
+    border-bottom: 1px solid #a2a9b1;
+}
+.subtitle{
+    margin-top: 10px;
+}
+.title{
+    font-style: italic;
+    font-weight: 600;
+}
+sup{
+    font-size: 14px;
+}
+.view{
+    width: 85px;
+}
+h6, h5{
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.contentinner{
+    margin: 0;
+    margin-bottom: 5px;
+}
+.contents{
+    border: 1px solid #a2a9b1;
+    width: 100px;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+h5{
+    margin-top: 20px;
+    border-bottom: 1px solid #a2a9b1;
+    font-size:20px;
+    font-weight: 100;
+}
+h1{
+    font-size: 20px;
+}
+.cast-ul{
+    padding: 0;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+span.subheading{
+    color: #54595d;
+    font-size: 13px;
+}
+.menu-heading {
+    background-image: linear-gradient(to right,rgba(200,204,209,0) 0,#c8ccd1 33%,#c8ccd1 66%,rgba(200,204,209,0) 100%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+}
+.right-content{
+    float: right;
+    width: 24%;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px 10px 10px;
+    background-color: #f8f9fa;
+}
+.left-content{
+    float: left;
+    width: 77%;
+}
+.body-content{
+    display: flex;
+    flex-direction: column;
+}
+.image-iteam {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bodycontent-top{
+    display: flex;
+    flex-direction: row;
+}
+.textdiv{
+    line-height: 20px;
+    font-size: 12px;
+}
+th.adddsign {
+    float: left;
+}
+td.righttext{
+    padding-left: 10px;
+}
+.footertext{
+    padding-left: 210px;
+    margin-top:16px;
+}
+.activefooter{
+    margin-right: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.number{
+    width: 5%;
+    padding-left: 10px;
+}
+th{
+    text-align: left;
+}
+.length{
+    text-align: right;
+    padding-right: 10px;
+}
+tr.childtr:nth-child(odd) {
+    background-color: #f7f7f7;
+    font-size: 14px;
+  }
+  .headermenuitems{
+    display: flex;
+    flex-direction: column;
+  }
+  .active{
+    margin-bottom: -1px;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #a7d7f9;
+  }
